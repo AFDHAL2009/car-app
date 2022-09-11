@@ -1,0 +1,22 @@
+{
+  "name": "car-app",
+  "version": "1.0.0",
+  "description": "react website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AFDHAL2009/car-app.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Afdhal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AFDHAL2009/car-app/issues"
+  },
+  "homepage": "https://github.com/AFDHAL2009/car-app#readme"
+}
