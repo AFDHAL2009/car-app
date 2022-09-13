@@ -19,17 +19,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import { HashRouter, Routes, Route } from "react-router-dom";
-import About from "./about";
+//import About from "./about";
 import Home from "./Home";
+import About from "./about";
+//import About from "./components/About"
 ReactDOM.render(
  <React.StrictMode>
- <HashRouter>
- <Routes>
- <Route path="/" element={<App/>} />
- <Route path="/about" element={<About/>}/>
- <Route path="/home" element={<Home/>}/>
- </Routes>
- </HashRouter>
+ 
+ <App/>
  </React.StrictMode>,
  document.getElementById("root")
 );
